@@ -106,13 +106,6 @@ namespace WebFormsMappedHotReload
                     if (driveInfo.DriveType == DriveType.Network)
                     {
                         var currentBytesArray = System.IO.File.ReadAllBytes(filepath);
-                        var clonedBytesArray = new byte[currentBytesArray.Length];
-                        currentBytesArray.ToList().CopyTo(clonedBytesArray);
-
-                        var clonedBytesList = clonedBytesArray.ToList();
-                        clonedBytesList.Add(0);
-
-                        System.IO.File.WriteAllBytes(filepath, clonedBytesList.ToArray());
                         System.IO.File.WriteAllBytes(filepath, currentBytesArray);
                     }
                 }
