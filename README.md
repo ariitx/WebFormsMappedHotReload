@@ -1,4 +1,4 @@
-# auto-save-vs-extension
+# WebFormsMappedHotReload
 
 This extension fix the issue on WebForms unable to hot reload for projects loaded from mapped network drive.
 
