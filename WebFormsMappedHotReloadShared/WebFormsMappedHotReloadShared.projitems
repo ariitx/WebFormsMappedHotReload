@@ -9,7 +9,7 @@
     <Import_RootNamespace>WebFormsMappedHotReloadShared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)AutoSaveFilePackage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WebFormsMappedHotReloadPackage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LoggerExtensionMethods.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NullLogger.cs" />

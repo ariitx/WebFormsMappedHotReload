@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="WebFormsMappedHotReload.9A64C9DC-24CD-4C65-B1BD-6B9F3EAF2734" Version="0.2" Language="en-US" Publisher="Ari Trikesuma" />
+        <Identity Id="WebFormsMappedHotReload.9A64C9DC-24CD-4C65-B1BD-6B9F3EAF2734" Version="0.3" Language="en-US" Publisher="Ari Trikesuma" />
         <DisplayName>WebForms Mapped Network Drive Hot Reload</DisplayName>
         <Description xml:space="preserve">This extension fix the issue on WebForms unable to hot reload for projects loaded from mapped network drive.</Description>
         <Tags>webforms, hot reload</Tags>
