@@ -98,7 +98,14 @@ namespace WebFormsMappedHotReload
             //TODO: determine debugger is attached
             if (true)
             {
-                if (document?.Language == "WebForms" && document?.Saved == true)
+                bool isRazor = false;
+                if (document?.Language == "HTML")
+                {
+                    if (Path.GetExtension((document != null) ? document.Name : null).ToLower() == ".cshtml") isRazor = true;
+                    if (Path.GetExtension((document != null) ? document.Name : null).ToLower() == ".vbhtml") isRazor = true;
+                }
+
+                if (document?.Saved == true && (document?.Language == "WebForms" || isRazor))
                 {
                     var filepath = document.FullName;
                     string rootPath = System.IO.Path.GetPathRoot(filepath);
